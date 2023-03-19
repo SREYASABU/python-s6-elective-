@@ -1,7 +1,0 @@
-l=[]
-n=int(input("Enter the number of elements in the list: "))
-for x in range(n):
-    num=int(input("no: "))
-    l.append(num)
-print(l)
-
