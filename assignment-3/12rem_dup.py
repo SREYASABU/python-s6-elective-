@@ -1,5 +1,5 @@
 l=[]
-n=int(input("Enter the elements of the list: "))
+n=int(input("Enter the no of  elements of the list: "))
 for i in range(n):
     num=int(input("no:"))
     l.append(num)

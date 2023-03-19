@@ -7,7 +7,7 @@ print(f'list is {l}')
 l1=l
 if l1==sorted(l):
     print(f'list is sorted in ascending order')
-elif l1==l.sorted(l):
+elif l1==sorted(l):
     print(f'list is sorted in descending order')
 else:
     print(f'list is not sorted')
