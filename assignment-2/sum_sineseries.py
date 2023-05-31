@@ -1,5 +1,5 @@
 import math
-n=int(input("Enter n(odd number): "))
+n=int(input("Enter n(even number): "))
 x=int(input("Enter x: "))
 i=1
 n1=2

@@ -62,9 +62,9 @@ print(f'80 in [90,70]?: {80 in [90,70]}')
 
 print(f'\nfunctions,operators and keywords that modify lists:')
 #print(*l) to print without brackets and commas
-l6=sorted(l5)#l remains unsorted
+l6=sorted(l5)#l5 remains unsorted
 print(f'l6=sorted(l5)-l5:{l5},l6={l6}')
-l5.sort()#l gets sorted
+l5.sort()#l5 gets sorted
 print(f'l5.sort()-l5:{l5}')
 del l5[1:3]
 print(f'del l5[1:3]: {l5}')#del is a keyword

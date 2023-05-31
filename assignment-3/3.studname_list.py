@@ -25,7 +25,12 @@ for name in names:
         print(f'{name}',end=" ")
 
 if flag==0:
-    print(f'--\n')
+    print(f'--')
 
+
+names.sort(reverse=True)
+print(f'reverse order and upper case:',end=" ")
+for name in names:
+ print(f' {name.upper()}',end=" ")
 
 
